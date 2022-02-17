@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: rgb(118, 130, 140);
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 40px;
+}
+
+header p{
+  padding: 0 60px;
+}
+
+header a{
+  width: 100%;
+}
+
+header span{
+  width: 100%;
+  font-size: 10px;
+  color: black;
+  font-style: italic;
+}
+
+body header + section{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 50px;
+}
+
+.visit section{
+  width: 50%;
+  float: left;
+  background: rgb(202, 211, 217);
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 50px;
+}
+
+.visit span{
+  font-weight: 700;
+}
+
+.visit section > section{
+  height: 30px;
+  width: 100%;
+  border: 1px solid rgb(118, 130, 140);
+  background: rgb(118, 130, 140);
+  float: left;
+  padding-left: 10px;
+  padding:120px;
+}
+
+.visit span {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.visit button{
+  height: 50px;
+  width: 150px;
+  background: rgb(202, 211, 217);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.volunteer{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.volunteer p{
+  margin: 20px;
+}
+
+.volunteer button {
+  height: 50px;
+  width: 150px;
+  background: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  height: 200px;
+  font-size: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+footer nav{
+  list-style: none;
+  float: left;
+  width: 50%;
+}
+
+footer nav li{
+  list-style: none;
+}
+
+footer address{
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
